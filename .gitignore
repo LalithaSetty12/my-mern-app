@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+client/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+client/.env
+
+# Build output
+dist/
+build/
+
+# VS Code settings
+.vscode/
